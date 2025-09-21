@@ -1,0 +1,8 @@
+import seaborn as sns
+import pandas as pd
+
+# Iris dataset load
+df = sns.load_dataset("iris")
+
+# First 10 rows
+df.head(10)
